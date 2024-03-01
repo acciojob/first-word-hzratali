@@ -4,10 +4,10 @@ function firstWord(s) {
 		return s;
 	}
 	else {
+		s = s.trim();
 		return s.substring(0, s.indexOf(' '));
 	}
 }
-
 // Do not change the code below
 const s = prompt("Enter String:");
 alert(firstWord(s));
